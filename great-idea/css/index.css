@@ -63,4 +63,189 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+nav {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	text-align: left;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	color: grey;
+	padding: 25px;
+}
+
+nav .logo {
+	padding-left: 50px;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	line-height: 0.75;
+	margin: 50px 0px 50px 50px;
+	width: 876px;
+}
+
+.title {
+	font-size: 68px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.title-child1 {
+	display: flex;
+	text-align: center;
+	width: 35%;
+}
+
+.title-child2 {
+	width: 35%;
+	display: flex;
+}
+
+.title-child3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: column;
+
+}
+
+.title-child3 {
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	margin: -50px 0px 0px 160px;
+	text-align: center;
+}
+
+header img {
+	display: flex;
+	width: 35%;
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.top-content div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 50%;
+	padding: 10px;
+}
+
+.middle-img {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.bottom-content div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 33%;
+	padding: 10px;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+/* Services css */
+
+.services{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+	margin: 25px 0px;
+0px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.col {
+	border: 1px solid black;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	width: 50%;
+	background-color: #d2d2d2;
+}
+
+.botcol {
+	
+	margin: 20px 20px;
+	padding: 20px 20px;
+	width: 50%;
+	
+}
+
+.learnbutton {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 25px;
+	margin: 10px -5px -10px 0px;
+	background-color: white;
+	
+}
+
+.hr2 {
+	padding: 1px;
+	background-color: black;
+}
+
+.list {
+	list-style-type: square;
+	padding: 5px 25px;
+	line-height: 2.5;
+}
+footer {
+	font-weight: bold;
+	text-align: center;
+}
+
+li {
+	margin: 10px 0;
+	list-style-type: square;
+}
